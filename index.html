@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check List</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .all{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        #click{
+            cursor: pointer;
+            
+        }
+        #list li{
+            color: white;
+            font-size: 1.9em;
+        }
+        #task{
+            padding: 20px;
+            font-size: 1.7em;
+        }
+        #click{
+            padding: 20px;
+            font-size: 1.7em;
+        }
+        li button{
+            padding: 10px;
+            background-color: yellow;
+            color: red;
+            cursor: pointer;
+        }
+        li button:hover{
+            background-color: white;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="all">
+    <h1 style="font-size: 3.9em; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: azure;">Check List</h1>
+    <div class="main">
+    <input type="text" id="task" placeholder="Type your task here">
+    <button id="click">Add</button>
+    <ul id="list">
+    </div>
+       
+    </ul>
+</div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
